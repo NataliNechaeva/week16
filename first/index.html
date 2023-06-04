@@ -13,6 +13,8 @@
     <h1>Оставьте ваш комментарий</h1>
     <div><label for="name">Введите ваш ФИО</label>
         <input type="text" name="name" id="name"></div>
+    <label for="show">Показывать ваше имя?</label>
+    <input type="checkbox" name="show" id="showed">
     <div><label for="page">Введите ссылку вашего аватара </label>
 
         <input type="url" name="page" id="page"></div>
@@ -25,6 +27,7 @@
         <h1>Чат</h1>
         <img style="visibility: hidden;" src="" alt="" srcset="" id="picChat" width="100px" height="200px">
         <input type="hidden" readonly id="nameChat">
+        <div id="dateMessage"></div>
         <div><input type="hidden" readonly id="textChat"></div>
     </div>
 </body>
